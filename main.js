@@ -79,7 +79,7 @@ function getLocation() {
      
      var temp = myJson.main.temp;
      var t = temp - 273.15;
-     document.getElementById("demo7").innerHTML = t+ " Cº";
+     document.getElementById("demo7").innerHTML = t.toFixed(2)+ " Cº";
   
   
   var presion = myJson.main.pressure;
