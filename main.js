@@ -132,7 +132,7 @@ var formattedTime2 = hours + ':' + minutes.substr(-2) + ':' + seconds.substr(-2)
   document.getElementById("demo14").innerHTML = formattedTime2;
 
 
-var horadecalculodedatos = myJson.dt;
+/*var horadecalculodedatos = myJson.dt;
 
 console.log(horadecalculodedatos);
 
@@ -149,7 +149,7 @@ var formattedTime3 = hours + ':' + minutes.substr(-2) + ':' + seconds.substr(-2)
   
   console.log(formattedTime3);
 var x = date;
-document.getElementById("demo66").innerHTML = formattedTime3 
+document.getElementById("demo66").innerHTML = formattedTime3;*/
 
 
 
