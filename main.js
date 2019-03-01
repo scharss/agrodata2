@@ -157,8 +157,8 @@ document.getElementById("demo66").innerHTML = formattedTime3
 var condiconclima= myJson.weather[0].main;
 var descripcionclima= myJson.weather[0].description;
 
-document.getElementById("demo77").innerHTML = condiconclima
-document.getElementById("demo88").innerHTML = descripcionclima
+document.getElementById("demo77").innerHTML = condiconclima;
+document.getElementById("demo88").innerHTML = descripcionclima;
 
 console.log(condiconclima);
 console.log(descripcionclima);
